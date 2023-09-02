@@ -3,19 +3,21 @@ import { Inter } from '@next/font/google';
 import LocalFont from '@next/font/local';
 import { Metadata } from 'next';
 import { Analytics } from './components/analytics';
+import Particles from './components/particles';
 
 export const metadata: Metadata = {
   title: {
-    default: 'chronark.com',
-    template: '%s | chronark.com',
+    default: 'Satu.rasa_',
+    template: '%s - SR`Photography',
   },
-  description: 'Software engineer at upstash.com and founder of planetfall.io',
+  description:
+    'Solo photographer who is ready to capture every moment you want to create and memorize',
   openGraph: {
-    title: 'chronark.com',
+    title: 'Satu.rasa_',
     description:
-      'Software engineer at upstash.com and founder of planetfall.io',
-    url: 'https://chronark.com',
-    siteName: 'chronark.com',
+      'Solo photographer who is ready to capture every moment you want to create and memorize',
+    url: 'https://arifin-portfolio.vercel.app',
+    siteName: 'arifin-portfolio.vercel.app',
     images: [
       {
         url: 'https://chronark.com/og.png',
@@ -66,10 +68,14 @@ export default function RootLayout({
         <Analytics />
       </head>
       <body
-        className={`bg-black ${
+        className={`bg-black overflow-hidden relative ${
           process.env.NODE_ENV === 'development' ? 'debug-screens' : undefined
         }`}
       >
+        <Particles
+          className="absolute inset-0 -z-10 animate-fade-in"
+          quantity={100}
+        />
         {children}
       </body>
     </html>

@@ -7,7 +7,6 @@ module.exports = {
     './mdx-components.tsx',
     'content/**/*.mdx',
   ],
-
   theme: {
     extend: {
       typography: {
@@ -41,6 +40,8 @@ module.exports = {
         title: 'title 3s ease-out forwards',
         'fade-left': 'fade-left 3s ease-in-out forwards',
         'fade-right': 'fade-right 3s ease-in-out forwards',
+        'fade-in-2': 'fade-in 1.5s ease-in-out forwards',
+        'fade-in-up': 'fade-in-up 1.5s ease-in-out forwards',
       },
       keyframes: {
         'fade-in': {
@@ -49,6 +50,17 @@ module.exports = {
           },
           '75%': {
             opacity: '0%',
+          },
+          '100%': {
+            opacity: '100%',
+          },
+        },
+        'fade-in-2': {
+          '0%': {
+            opacity: '0%',
+          },
+          '75%': {
+            opacity: '50%',
           },
           '100%': {
             opacity: '100%',
@@ -98,6 +110,16 @@ module.exports = {
 
           '100%': {
             'line-height': '100%',
+            opacity: '100%',
+          },
+        },
+        'fade-in-up': {
+          '0%': {
+            transform: 'translateY(10%)',
+            opacity: '0%',
+          },
+          '100%': {
+            transform: 'translateY(0%)',
             opacity: '100%',
           },
         },

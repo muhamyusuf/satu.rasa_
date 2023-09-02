@@ -23,37 +23,30 @@ export default function Home() {
           ))}
         </ul>
       </nav>
+
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+
       <Particles
         className="absolute inset-0 -z-10 animate-fade-in"
         quantity={100}
       />
-      <h1 className="z-10 text-transparent duration-1000 bg-white cursor-default text-7xl text-edge-outline animate-title font-display md:text-9xl whitespace-nowrap bg-clip-text ">
-        Arifin
-      </h1>
+
+      <div className="relative">
+        <h1 className="z-10 text-6xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display md:text-9xl whitespace-nowrap bg-clip-text">
+          Satu.rasa_
+        </h1>
+        <span className="md:w-[300px] w-[150px] h-[70px] md:h-[130px] bg-[#FFFDD0] absolute md:-left-5 -left-4 -top-2 -z-50 animate-title rounded-sm" />
+      </div>
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+
       <div className="my-16 text-center animate-fade-in">
-        <h2 className="text-sm text-zinc-500 ">
-          Hi, my name is Andreas, I'm building serverless and open source
-          solutions at{' '}
-          <Link
-            target="_blank"
-            href="https://upstash.com"
-            className="underline duration-500 hover:text-zinc-300"
-          >
-            Upstash
-          </Link>
-          <br />
-          and working on{' '}
-          <Link
-            target="_blank"
-            href="https://unkey.dev"
-            className="underline duration-500 hover:text-zinc-300"
-          >
-            unkey.dev
-          </Link>{' '}
-          at night.
+        <h2 className="px-2 text-sm md:text-lg text-zinc-500 max-w-[560px]">
+          Hi, my name is <span className="font-bold">Arifin</span>, I &rsquo; am
+          a <span className="font-bold text-blue-800">SOLO</span> photographer
+          who is ready to capture every moment you want to{' '}
+          <span className="font-bold text-blue-800">CREATE</span> and{' '}
+          <span className="font-bold text-blue-800">MEMORIZE</span>.
         </h2>
       </div>
     </div>
