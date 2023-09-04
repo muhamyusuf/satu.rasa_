@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import Particles from './components/particles';
+import Slider from './components/slider';
 
 const navigation = [
   { name: 'Projects', href: '/projects' },
@@ -49,6 +50,12 @@ export default function Home() {
           <span className="font-bold text-blue-800">MEMORIZE</span>.
         </h2>
       </div>
+
+      <p className="inline text-center text-white lg:hidden animate-fade-in">
+        Hold image to see a magic
+      </p>
+
+      <Slider />
     </div>
   );
 }

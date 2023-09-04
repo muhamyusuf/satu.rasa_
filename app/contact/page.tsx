@@ -1,8 +1,9 @@
 import { Metadata } from 'next';
-import { Contact2, Instagram } from 'lucide-react';
+import { Instagram } from 'lucide-react';
 import Link from 'next/link';
 import { Navigation } from '../components/nav';
 import { Card } from '../components/card';
+import { AiOutlineWhatsApp } from 'react-icons/ai';
 
 export const metadata: Metadata = {
   title: 'Contact',
@@ -16,7 +17,7 @@ const socials = [
     handle: '@satu.rasaa_',
   },
   {
-    icon: <Contact2 size={20} />,
+    icon: <AiOutlineWhatsApp size={20} />,
     href: 'https://wa.me/6287798961834',
     label: 'Contact Me',
     handle: 'WhatsApp',
@@ -28,7 +29,7 @@ export default function Contact() {
     <div className="bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
       <Navigation />
       <div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
-        <div className="grid w-full grid-cols-1 gap-8 mt-32 sm:mt-0 sm:grid-cols-2 lg:gap-16 animate-fade-in-up">
+        <div className="grid w-full grid-cols-1 gap-8 sm:mt-0 sm:grid-cols-2 lg:gap-16 animate-fade-in-up">
           {socials.map((s) => (
             <Card>
               <Link
@@ -47,6 +48,7 @@ export default function Contact() {
                   <span className="text-xl font-medium duration-150 lg:text-3xl text-zinc-200 group-hover:text-white font-display">
                     {s.handle}
                   </span>
+
                   <span className="mt-4 text-sm text-center duration-1000 text-zinc-400 group-hover:text-zinc-200">
                     {s.label}
                   </span>

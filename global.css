@@ -4,7 +4,36 @@
 
 @layer base {
   .text-edge-outline {
-    -webkit-text-stroke: 1px rgba(255,255,255,0.3);
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
   }
-} 
+}
 
+/* Slider */
+.slider {
+  @apply relative grid h-[300px] m-auto overflow-hidden place-items-center;
+}
+
+.slider-track {
+  @apply flex;
+  width: calc(250px * 18);
+  animation: scroll 45s linear infinite;
+}
+
+.slider-track:hover {
+  animation-play-state: paused;
+}
+
+.slide {
+  @apply h-[200px] w-[250px] flex items-center p-[15px];
+  perspective: 100px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 9));
+  }
+}
+/* Slider */

@@ -2,7 +2,7 @@ import '../global.css';
 import { Inter } from '@next/font/google';
 import LocalFont from '@next/font/local';
 import { Metadata } from 'next';
-import { Analytics } from './components/analytics';
+
 import Particles from './components/particles';
 
 export const metadata: Metadata = {
@@ -64,9 +64,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={[inter.variable, calSans.variable].join(' ')}>
-      <head>
-        <Analytics />
-      </head>
       <body
         className={`bg-black overflow-hidden relative ${
           process.env.NODE_ENV === 'development' ? 'debug-screens' : undefined
