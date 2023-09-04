@@ -40,3 +40,27 @@ export const gallerySlider = [
     image: '/projects/school-group-2.jpg',
   },
 ];
+
+export const CategoryPhoto = [
+  {
+    name: 'Hunting',
+  },
+  {
+    name: 'Graduation',
+  },
+  {
+    name: 'Photo Group',
+  },
+  {
+    name: 'Event Documentation',
+  },
+  {
+    name: 'Pre Wedding',
+  },
+  {
+    name: 'Cosplay',
+  },
+  {
+    name: 'Cosplay',
+  },
+];

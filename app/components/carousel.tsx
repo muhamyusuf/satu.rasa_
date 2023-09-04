@@ -6,30 +6,7 @@ import classNames from 'classnames';
 import Image from 'next/image';
 import { ExternalLink } from 'lucide-react';
 import Link from 'next/link';
-
-const CategoryPhoto = [
-  {
-    name: 'Hunting',
-  },
-  {
-    name: 'Graduation',
-  },
-  {
-    name: 'Photo Group',
-  },
-  {
-    name: 'Event Documentation',
-  },
-  {
-    name: 'Pre Wedding',
-  },
-  {
-    name: 'Cosplay',
-  },
-  {
-    name: 'Cosplay',
-  },
-];
+import { CategoryPhoto } from '../../datas/index';
 
 export default function Carousel() {
   const [activeItem, setActiveItem] = useState(0);
