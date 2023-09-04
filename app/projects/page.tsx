@@ -1,52 +1,8 @@
 import React from 'react';
-import { allProjects } from 'contentlayer/generated';
 import { Navigation } from '../components/nav';
 import Carousel from '../components/carousel';
 
-export const revalidate = 60;
-
-export const CategoryPhoto = [
-  {
-    name: 'Hunting',
-  },
-  {
-    name: 'Graduation',
-  },
-  {
-    name: 'Photo Group',
-  },
-  {
-    name: 'Event Documentation',
-  },
-  {
-    name: 'Pre Wedding',
-  },
-  {
-    name: 'Cosplay',
-  },
-  {
-    name: 'Cosplay',
-  },
-];
-
 export default async function Projects() {
-  const featured = allProjects.find((project) => project.slug === 'unkey')!;
-  const top2 = allProjects.find((project) => project.slug === 'planetfall')!;
-  const top3 = allProjects.find((project) => project.slug === 'highstorm')!;
-  const sorted = allProjects
-    .filter((p) => p.published)
-    .filter(
-      (project) =>
-        project.slug !== featured.slug &&
-        project.slug !== top2.slug &&
-        project.slug !== top3.slug,
-    )
-    .sort(
-      (a, b) =>
-        new Date(b.date ?? Number.POSITIVE_INFINITY).getTime() -
-        new Date(a.date ?? Number.POSITIVE_INFINITY).getTime(),
-    );
-
   return (
     <div className="relative w-full pb-16 overflow-scroll md:overflow-hidden">
       <Navigation />

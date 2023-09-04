@@ -4,9 +4,32 @@ import { useEffect, useRef, useState } from 'react';
 
 import classNames from 'classnames';
 import Image from 'next/image';
-import { CategoryPhoto } from '../projects/page';
 import { ExternalLink } from 'lucide-react';
 import Link from 'next/link';
+
+const CategoryPhoto = [
+  {
+    name: 'Hunting',
+  },
+  {
+    name: 'Graduation',
+  },
+  {
+    name: 'Photo Group',
+  },
+  {
+    name: 'Event Documentation',
+  },
+  {
+    name: 'Pre Wedding',
+  },
+  {
+    name: 'Cosplay',
+  },
+  {
+    name: 'Cosplay',
+  },
+];
 
 export default function Carousel() {
   const [activeItem, setActiveItem] = useState(0);
