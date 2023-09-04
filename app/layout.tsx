@@ -18,7 +18,13 @@ export const metadata: Metadata = {
       'Solo photographer who is ready to capture every moment you want to create and memorize',
     url: 'https://satu-rasa.vercel.app',
     siteName: 'satu-rasa.vercel.app',
-    images: [{ url: 'https://chronark.com/og.png', width: 1920, height: 1080 }],
+    images: [
+      {
+        url: 'https://satu-rasa.vercel.app/satu-rasa.png',
+        width: 1080,
+        height: 1080,
+      },
+    ],
     type: 'website',
   },
   robots: {
