@@ -38,9 +38,12 @@ export default function Carousel() {
   return (
     <div className="flex items-center justify-center w-full h-full">
       <div className="w-[320px] md:w-[700px] lg:w-[1400px] max-w-full">
+        <p className="mb-5 text-center text-white md:hidden">
+          Scroll to see another projects
+        </p>
         <ul
           ref={wrapperRef}
-          className="group flex justify-start slider-track md:w-full md:animate-none overflow-scroll md:overflow-hidden gap-5 h-[400px] md:flex-row md:gap-[1.5%]"
+          className="group flex justify-start md:w-full md:animate-none overflow-scroll md:overflow-hidden gap-5 h-[400px] md:flex-row md:gap-[1.5%]"
         >
           {CategoryPhoto.map((item, index) => (
             <li
