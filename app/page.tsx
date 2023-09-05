@@ -28,7 +28,7 @@ export default function Home() {
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 
       <Particles
-        className="absolute inset-0 -z-10 animate-fade-in"
+        className="absolute inset-0 overflow-hidden -z-10 animate-fade-in"
         quantity={100}
       />
 

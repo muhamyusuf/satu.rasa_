@@ -80,11 +80,8 @@ export default function Carousel() {
                       : 'md:translate-x-4 md:opacity-0',
                   )}
                 >
-                  <p className="text-lg font-bold textGradient md:text-4xl">
+                  <p className="text-2xl font-bold textGradient md:text-4xl">
                     {item.name}
-                  </p>
-                  <p className="text-[8px] font-semibold text-tosca-primary uppercase md:text-[10px] lg:text-sm">
-                    {/* {item.title} */} tes
                   </p>
                 </div>
 
@@ -99,7 +96,7 @@ export default function Carousel() {
                   <p className="text-[10px] w-[60%] md:w-[80%] font-bold text-black md:text-xl">
                     <Link
                       href={`projects/${item.name.toLowerCase()}`}
-                      className="flex items-center gap-2 text-sm text-white"
+                      className="flex items-center gap-2 text-[10px] md:text-sm text-white"
                     >
                       <ExternalLink /> {item.name} Detail
                     </Link>

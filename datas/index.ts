@@ -43,9 +43,6 @@ export const gallerySlider = [
 
 export const CategoryPhoto = [
   {
-    name: 'Hunting',
-  },
-  {
     name: 'Graduation',
   },
   {
@@ -55,12 +52,15 @@ export const CategoryPhoto = [
     name: 'Event Documentation',
   },
   {
-    name: 'Pre Wedding',
+    name: 'Wedding',
+  },
+  {
+    name: 'Hunting',
   },
   {
     name: 'Cosplay',
   },
   {
-    name: 'Cosplay',
+    name: 'Prewedding',
   },
 ];

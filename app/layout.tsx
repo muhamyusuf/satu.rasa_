@@ -3,8 +3,6 @@ import { Inter } from '@next/font/google';
 import LocalFont from '@next/font/local';
 import { Metadata } from 'next';
 
-import Particles from './components/particles';
-
 export const metadata: Metadata = {
   title: {
     default: 'Satu.rasa_',
@@ -61,14 +59,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={[inter.variable, calSans.variable].join(' ')}>
       <body
-        className={`bg-black overflow-hidden relative ${
+        className={`bg-black relative ${
           process.env.NODE_ENV === 'development' ? 'debug-screens' : undefined
         }`}
       >
-        <Particles
-          className="absolute inset-0 -z-10 animate-fade-in"
-          quantity={100}
-        />
         {children}
       </body>
     </html>
