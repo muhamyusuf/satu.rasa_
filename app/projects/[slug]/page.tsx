@@ -39,7 +39,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                   alt={image.name}
                   width={300}
                   height={100}
-                  className={`w-auto h-auto grayscale-0 lg:!grayscale transition-all group-hover:grayscale hover:!grayscale-0 duration-300 ease-in-out rounded-md first-letter  
+                  className={`w-auto h-auto grayscale-0 transition-all md:group-hover:grayscale md:hover:!grayscale-0 duration-300 ease-in-out rounded-md first-letter  
             `}
                   quality={100}
                   priority
@@ -55,7 +55,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                   alt={image.name}
                   width={300}
                   height={100}
-                  className={`w-auto h-auto grayscale-0 lg:!grayscale transition-all group-hover:grayscale hover:!grayscale-0 duration-300 ease-in-out rounded-md first-letter  
+                  className={`w-auto h-auto grayscale-0 transition-all md:group-hover:grayscale md:hover:!grayscale-0 duration-300 ease-in-out rounded-md first-letter  
             `}
                   quality={100}
                   priority
@@ -71,7 +71,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                   alt={image.name}
                   width={300}
                   height={100}
-                  className={`w-auto h-auto grayscale-0 lg:!grayscale transition-all group-hover:grayscale hover:!grayscale-0 duration-300 ease-in-out rounded-md first-letter  
+                  className={`w-auto h-auto grayscale-0 transition-all md:group-hover:grayscale md:hover:!grayscale-0 duration-300 ease-in-out rounded-md first-letter  
             `}
                   quality={100}
                   priority
@@ -87,7 +87,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                   alt={image.name}
                   width={300}
                   height={100}
-                  className={`w-auto h-auto grayscale-0 lg:!grayscale transition-all group-hover:grayscale hover:!grayscale-0 duration-300 ease-in-out rounded-md first-letter  
+                  className={`w-auto h-auto grayscale-0 transition-all md:group-hover:grayscale md:hover:!grayscale-0 duration-300 ease-in-out rounded-md first-letter  
             `}
                   quality={100}
                   priority
@@ -103,7 +103,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                   alt={image.name}
                   width={300}
                   height={100}
-                  className={`w-auto h-auto grayscale-0 lg:!grayscale transition-all group-hover:grayscale hover:!grayscale-0 duration-300 ease-in-out rounded-md first-letter  
+                  className={`w-auto h-auto grayscale-0 transition-all md:group-hover:grayscale md:hover:!grayscale-0 duration-300 ease-in-out rounded-md first-letter  
             `}
                   quality={100}
                   priority
@@ -119,7 +119,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                   alt={image.name}
                   width={300}
                   height={100}
-                  className={`w-auto h-auto grayscale-0 lg:!grayscale transition-all group-hover:grayscale hover:!grayscale-0 duration-300 ease-in-out rounded-md first-letter  
+                  className={`w-auto h-auto grayscale-0 transition-all md:group-hover:grayscale md:hover:!grayscale-0 duration-300 ease-in-out rounded-md first-letter  
             `}
                   quality={100}
                   priority
