@@ -44,23 +44,30 @@ export const gallerySlider = [
 export const CategoryPhoto = [
   {
     name: 'Graduation',
+    src: '/projects/graduation-layout.png',
   },
   {
     name: 'Photo Group',
+    src: '/projects/photogroup-layout.png',
   },
   {
     name: 'Event Documentation',
+    src: '/projects/eventdoc-layout.png',
   },
   {
     name: 'Wedding',
+    src: '/projects/wedding-layout.png',
   },
   {
     name: 'Hunting',
+    src: '/projects/hunting-layout.png',
   },
   {
     name: 'Cosplay',
+    src: '/projects/cosplay-layout.png',
   },
   {
     name: 'Prewedding',
+    src: '/projects/prewedding-layout.png',
   },
 ];

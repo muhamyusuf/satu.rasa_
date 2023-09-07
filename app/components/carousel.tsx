@@ -60,7 +60,7 @@ export default function Carousel() {
               <div className="relative w-full h-full overflow-hidden rounded-2xl">
                 <Image
                   className="absolute object-cover w-full -translate-y-1/2 opacity-80 -z-10 top-1/2 max-w-none md:left-1/2 md:h-full md:-translate-x-1/2 md:rounded-none"
-                  src={'/projects/graduation-2.jpg'}
+                  src={item.src}
                   alt={item.name}
                   width={600}
                   height={700}
@@ -83,7 +83,7 @@ export default function Carousel() {
                       : 'md:translate-x-4 md:opacity-0',
                   )}
                 >
-                  <p className="text-2xl font-bold textGradient md:text-4xl">
+                  <p className="text-2xl font-extrabold textGradient md:text-4xl">
                     {item.name}
                   </p>
                 </div>

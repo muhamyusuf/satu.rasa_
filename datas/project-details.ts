@@ -1,5 +1,9 @@
 export const graduation = [
   {
+    name: 'graduation-10',
+    src: '/projects/graduation/graduation-10.jpg',
+  },
+  {
     name: 'graduation-1',
     src: '/projects/graduation/graduation-1.jpg',
   },
@@ -58,6 +62,26 @@ export const photo_group = [
     name: 'photo-group-5',
     src: '/projects/photo-group/photo-group-5.jpg',
   },
+  {
+    name: 'photo-group-6',
+    src: '/projects/photo-group/photo-group-6.jpg',
+  },
+  {
+    name: 'photo-group-7',
+    src: '/projects/photo-group/photo-group-7.jpg',
+  },
+  {
+    name: 'photo-group-8',
+    src: '/projects/photo-group/photo-group-8.jpg',
+  },
+  {
+    name: 'photo-group-9',
+    src: '/projects/photo-group/photo-group-9.jpg',
+  },
+  {
+    name: 'photo-group-10',
+    src: '/projects/photo-group/photo-group-10.jpg',
+  },
 ];
 
 export const event_documentation = [
@@ -93,6 +117,18 @@ export const wedding = [
     src: '/projects/wedding/wedding-4.jpg',
   },
   {
+    name: 'wedding-5',
+    src: '/projects/wedding/wedding-5.jpg',
+  },
+  {
+    name: 'wedding-6',
+    src: '/projects/wedding/wedding-6.jpg',
+  },
+  {
+    name: 'wedding-7',
+    src: '/projects/wedding/wedding-7.jpg',
+  },
+  {
     name: 'wedding-event',
     src: '/projects/wedding/wedding-event.jpg',
   },
@@ -126,6 +162,22 @@ export const hunting = [
   {
     name: 'hunting-6',
     src: '/projects/hunting/hunting-6.jpg',
+  },
+  {
+    name: 'hunting-7',
+    src: '/projects/hunting/hunting-7.jpg',
+  },
+  {
+    name: 'hunting-8',
+    src: '/projects/hunting/hunting-8.jpg',
+  },
+  {
+    name: 'hunting-9',
+    src: '/projects/hunting/hunting-9.jpg',
+  },
+  {
+    name: 'hunting-10',
+    src: '/projects/hunting/hunting-10.jpg',
   },
 ];
 
