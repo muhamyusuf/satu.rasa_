@@ -117,18 +117,6 @@ export const wedding = [
     src: '/projects/wedding/wedding-4.jpg',
   },
   {
-    name: 'wedding-5',
-    src: '/projects/wedding/wedding-5.jpg',
-  },
-  {
-    name: 'wedding-6',
-    src: '/projects/wedding/wedding-6.jpg',
-  },
-  {
-    name: 'wedding-7',
-    src: '/projects/wedding/wedding-7.jpg',
-  },
-  {
     name: 'wedding-event',
     src: '/projects/wedding/wedding-event.jpg',
   },
