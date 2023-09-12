@@ -29,7 +29,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
         </h1>
       </div>
 
-      <div className="w-full p-5 mx-auto md:p-10">
+      <div className="flex justify-center w-full p-5 mx-auto md:p-10">
         <div className="columns-1 gap-5 group lg:gap-6 sm:columns-2 md:columns-3 lg:columns-5 [&>img:not(:first-child)]:mt-5 lg:[&>img:not(:first-child)]:mt-8">
           {title_matcher === 'graduation'
             ? graduation.map((image, index) => (
